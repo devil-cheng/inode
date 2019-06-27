@@ -1,12 +1,10 @@
 import React from 'react';
 import Header from './views/component/header'
+import RouterIndex from './router/index'
 
 function App() {
   return (
-    <div className="App">
-      App
-      <Header></Header>
-    </div>
+    <RouterIndex />
   );
 }
 
