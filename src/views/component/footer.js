@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
+import { Layout } from 'antd'
 export default class Footer extends Component{
     render() {
-        return (<h2>Footer</h2>)
+        return (<Layout.Footer className="footer">Footer</Layout.Footer>)
     }
 }

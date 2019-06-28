@@ -1,10 +1,19 @@
 import React from 'react';
-import Header from './views/component/header'
+import IndexHeader from './views/component/header'
+import IndexFooter from './views/component/footer'
 import RouterIndex from './router/index'
+import { Layout } from 'antd'
+import './assets/css/style.css'
 
 function App() {
   return (
-    <RouterIndex />
+    <Layout className="main">
+      <IndexHeader></IndexHeader>
+      <div className="container">
+        <RouterIndex/>
+      </div>
+      <IndexFooter></IndexFooter>
+    </Layout>
   );
 }
 

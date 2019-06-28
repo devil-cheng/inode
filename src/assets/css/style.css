@@ -1,0 +1,33 @@
+.main{
+    height: 100vh;
+    display: flex;
+}
+.container{
+    flex: 1;
+}
+.footer{
+    border-top: 1px solid #ccc;
+    text-align: center
+}
+.header{
+    color: #fff
+}
+.center{
+    text-align: center;
+}
+.hor-menu{
+    line-height: 62px;
+    background-color: transparent;
+    border-bottom: none;
+}
+.hor-menu .ant-menu-item a{
+    color: #fff;
+}
+.hor-menu .ant-menu-item-selected a{
+    color: #1890ff
+}
+.topMenu{
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
