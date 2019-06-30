@@ -10,7 +10,9 @@ function App() {
     <Layout className="main">
       <IndexHeader></IndexHeader>
       <div className="container">
-        <RouterIndex/>
+        <div className="wrap">
+          <RouterIndex/>
+        </div>
       </div>
       <IndexFooter></IndexFooter>
     </Layout>
